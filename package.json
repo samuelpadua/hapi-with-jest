@@ -1,0 +1,27 @@
+{
+  "name": "hapijs-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "jest": "^24.1.0",
+    "nock": "^10.0.6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "hapi": "^18.1.0"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test/**/*.js"
+    ],
+    "testEnvironment": "node"
+  }
+}
