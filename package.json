@@ -15,7 +15,7 @@
     "nock": "^10.0.6"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "hapi": "^18.1.0"
   },
   "jest": {
